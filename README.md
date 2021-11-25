@@ -40,11 +40,11 @@ TESTING
 For testing and visualizing solutions to either the map coloring or circuit board problems with all possible combinations of heuristic values, execute test script `MapColorTest.py` or `CircuitBoardTest.py`. You can also edit the various tests. For MapColoring, the map of Australian territories as well as a map of the states of the US are solved. For CircuitBoard, varying boards and components with differing complexities are solved too. See below for the output of two examples runs on each problem. Enjoy.
 
 ```
------------------------------------------------------TEST16: US! MapColorCSP w/ No Heuristics + No AC3------------------------------------------------
+-------------------------------------------TEST16: US! MapColorCSP w/ No Heuristics + No AC3--------------------------------------
 int form: [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 2, 0, 0, 0, 1, 0, 0, 2, 2, 1, 1, 0, 1, 2, 3, 3, 2, 0, 0, 2, 2, 1, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 2, 3, 0, 1, 3, 0, 3]
 Nodes visited: 4088659
 
------------------------------------------------------TEST19: US! MapColorCSP w/ Only LCV Heuristic + AC3----------------------------------------------
+-------------------------------------------TEST19: US! MapColorCSP w/ Only LCV Heuristic + AC3------------------------------------
 int form: [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 2, 0, 0, 1, 1, 0, 0, 2, 2, 1, 2, 1, 1, 1, 3, 3, 2, 0, 0, 2, 0, 2, 3, 3, 3, 3, 2, 0, 1, 2, 1, 3, 1, 1, 2, 3, 2, 2, 2, 0, 0]
 Nodes visited: 32
 ```
